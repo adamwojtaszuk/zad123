@@ -1,0 +1,19 @@
+/* Styl podstawowy dla paragrafu */
+p {
+  color: red;
+  font-size: 22pt;
+}
+
+/* Styl z ID - zielony, pogrubiony */
+#gruby_wojtaszuk {
+  color: green;
+  font-size: 17pt;
+  font-weight: bold;
+}
+
+/* Styl uniwersalny z ID */
+#dlawszyskich_wojtaszuk {
+  color: yellow;
+  font-size: 10pt;
+  font-family: Arial, sans-serif;
+}

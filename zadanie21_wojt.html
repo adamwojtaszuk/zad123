@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 21 - Adam Wojtaszuk</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 2px solid #000000;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #C0C0C0;
+    }
+    #pochyly {
+      color: green;
+      font-style: italic;
+      font-size: 20pt;
+    }
+    p {
+      color: green;
+      font-size: 14pt;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Zadanie 21 – Użycie ID</h2>
+
+<table>
+  <tr>
+    <th>Pojęcie</th>
+    <th>Znaczenie (uzupełnione przez ucznia)</th>
+  </tr>
+  <tr>
+    <td>Co znaczy skrót ID?</td>
+    <td>ID to identyfikator przypisany do pojedynczego elementu HTML w celu jego indywidualnego stylowania.</td>
+  </tr>
+  <tr>
+    <td>Jaki jest cel stosowania ID?</td>
+    <td>Indywidualne nadanie stylu konkretnemu elementowi na stronie.</td>
+  </tr>
+  <tr>
+    <td>Jakie jest znaczenie znaku #?</td>
+    <td>Znak # służy do odwołania się do ID w arkuszu stylów CSS.</td>
+  </tr>
+  <tr>
+    <td>Jak następuje wywołanie ID (wraz z wytłumaczeniem)?</td>
+    <td>
+      Wywołanie ID następuje przez przypisanie atrybutu <code>id="nazwa_id"</code> w znaczniku HTML. W CSS odwołujemy się do niego poprzez <code>#nazwa_id</code>.
+    </td>
+  </tr>
+  <tr>
+    <td>Uwagi na temat stosowania ID (trzy konieczne wyliczenia)</td>
+    <td>
+      <ul>
+        <li>ID może być użyte tylko raz w dokumencie.</li>
+        <li>ID jest unikalne – nie powinno być powielane.</li>
+        <li>Do wielokrotnego stosowania lepiej użyć klasy (class).</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<hr style="margin: 30px auto; width: 80%;">
+
+<!-- Przykład użycia ID -->
+<div style="width: 80%; margin: 0 auto;">
+  <p>Blok tekstu o kolorze zielonym i czcionce 14pt</p>
+  <p id="pochyly">Blok tekstu o kolorze zielonym i czcionce 20pt, pochylony dzięki ID</p>
+  <p>Blok tekstu o kolorze zielonym i czcionce 14pt</p>
+</div>
+
+</body>
+</html>
+
+<!-- Adam Wojtaszuk -->

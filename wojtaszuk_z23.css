@@ -1,0 +1,46 @@
+/* 1. pogrubienie */
+p#pogrubienie_wojtaszuk {
+  font-size: 34px; /* 25 + 9 */
+  color: #8D32D8;  /* R:125+10=135 => 0x87; G:50+43=93 => 0x5D; B:200+11=211 => 0xD3 */
+  font-weight: bold;
+}
+
+/* 2. pochylona */
+p#pochylona_wojtaszuk {
+  font-size: 39pt; /* 30 + 9 */
+  color: #D996A7; /* R:225+10=235, G:150+43=193, B:100+11=111 */
+  font-style: italic;
+}
+
+/* 3. index górny */
+p#index_gorny_wojtaszuk {
+  font-size: 1.4cm; /* 0.5 + 0.1*9 */
+  color: #9F8C25; /* R:145+10=155, G:100+43=143, B:20+11=31 */
+  vertical-align: super;
+}
+
+/* 4. index dolny */
+p#index_dolny_wojtaszuk {
+  font-size: 2.3cm; /* 0.5 + 0.2*9 */
+  color: rgb(55%, 95%, 100%); /* R:45+10=55%, G:200+43=243 -> 100%, B:220+11=231 -> 100% */
+  vertical-align: sub;
+}
+
+/* 5. mono */
+p#mono_wojtaszuk {
+  font-size: 44px; /* 35 + 9 */
+  color: #1AE864; /* R:17+10=27, G:180+43=223, B:100+11=111 */
+  font-family: monospace;
+}
+
+/* 6. powiększenie */
+p#powiekszenie_wojtaszuk {
+  font-size: 200%;
+  color: #5B16C1; /* R:75+10=85, G:20+43=63, B:150+11=161 */
+}
+
+/* 7. pomniejszenie */
+p#pomniejszenie_wojtaszuk {
+  font-size: 70%;
+  color: rgb(72%, 64%, 61%); /* R:175+10=185->72%, G:120+43=163->64%, B:50+11=61->61% */
+}
